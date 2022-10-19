@@ -32,6 +32,10 @@ module.exports = {
             'error',
             'stroustrup',
             { 'allowSingleLine': true }
+        ],
+        'no-trailing-spaces': [
+            'error',
+            { 'ignoreComments': true }
         ]
     }
 };
