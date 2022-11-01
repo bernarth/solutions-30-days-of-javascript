@@ -36,6 +36,10 @@ module.exports = {
         'no-trailing-spaces': [
             'error',
             { 'ignoreComments': true }
+        ],
+        'max-len': [
+            'error',
+            { 'code': 100 }
         ]
     }
 };
