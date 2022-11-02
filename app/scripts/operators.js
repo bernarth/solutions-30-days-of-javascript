@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Exercises: Level 1
 let firstName = 'Alberth',
     lastName = 'Condori',
@@ -35,3 +36,20 @@ console.log(now.getHours());
 console.log(now.getMinutes());
 console.log(now.getTime() * 0.001);
 
+// Exercises: Level 2
+const baseString = prompt('Enter base:'),
+    heightString = prompt('Enter height:'),
+    base = Number.parseInt(baseString) || 0,
+    height = Number.parseInt(heightString) || 0;
+alert('The area of the triangle is ' + (base * height) / 2);
+
+const aInput = prompt('Enter side a:'),
+    bInput = prompt('Enter side b:'),
+    cInput = prompt('Enter side c:'),
+    a = Number.parseInt(aInput) || 0,
+    b = Number.parseInt(bInput) || 0,
+    c = Number.parseInt(cInput) || 0;
+alert('The perimeter of the triangle is ' + (a + b + c));
+
+// Exercises: Level 3
+console.log(now.toISOString().split('T')[0], `${now.getHours()}:${now.getMinutes()}`);
