@@ -1,4 +1,4 @@
-# Solutions for 30-Days-Of-JavaScript
+# Solutions for some exercises at 30-Days-Of-JavaScript
 This project uses lite-server to run.
 
 To run this project use ```npm run dev```
